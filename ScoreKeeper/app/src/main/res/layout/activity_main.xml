@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.scorekeeper.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/bungee_shade"
+        android:text="Welcome to ScoreKeeper"
+        android:textSize="35dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="30dp"
+        android:textColor="#000000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/imgs"
+        android:layout_below="@id/title">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/fstkid"
+            android:layout_below="@id/title"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/sockerkid"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/ball"
+            android:layout_below="@id/title"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ball"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/sedkid"
+            android:layout_below="@id/title"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/secsocerkid"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Press The ball to Start the Match"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_below="@id/imgs"
+        android:background="@drawable/rounded_corner"/>
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ErlichCard</string>
+    <string name="name_TextView">Erlich Bachman</string>
+    <string name="work_TextView">Aviato</string>
+    <string name="quote_TextView">\“A name is something that defines a company. It has to be primal. Something you can scream out during intercourse.\"</string>
+    <string name="second_quote_TextView">\“A name is something that defines a company. It has to be primal. Something you can scream out during intercourse.\"</string>
+</resources>

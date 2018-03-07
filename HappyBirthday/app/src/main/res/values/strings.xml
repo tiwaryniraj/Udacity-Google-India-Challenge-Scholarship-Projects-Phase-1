@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HappyBirthday</string>
+    <string name="title">Happy Birthday</string>
+    <string name="name">Niraj!</string>
+    <string name="ContentDiscription">Party Image</string>
+    <string name="address">2465 Latham St,Mountain View, CA 94043</string>
+    <string name="webs">www.udacity.com</string>
+    <string name="call">650-555-5555</string>
+</resources>
